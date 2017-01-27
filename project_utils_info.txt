@@ -32,6 +32,12 @@ print_r($_POST);
 
 
 
-
-//================
+ 
+//================ search pages
 https://blackrockdigital.github.io/startbootstrap-modern-business/services.html
+https://www.sitepoint.com/turning-crawled-website-search-engine-php/
+
+
+
+///=====github
+ git merge origin master -allow-unrelated-histories
