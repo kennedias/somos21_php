@@ -1,0 +1,37 @@
+Templates - Bootstrap - getbootstrap.com
+
+
+
+================
+
+PHPMyAdmin Installation complete. You can log in at: 
+
+https://somos21-kennedias.c9users.io/phpmyadmin
+
+with the following username (and blank password):
+
+       Username: kennedias
+
+
+# start MySQL. Will create an empty database on first start
+$ mysql-ctl start
+
+# stop MySQL
+$ mysql-ctl stop
+
+# run the MySQL interactive shell
+$ mysql-ctl cli
+
+
+//================
+
+print_r($_POST);
+
+        
+        echo "<p>id: $id, name: $username, nationality_code: $nationality_code</p>";
+
+
+
+
+//================
+https://blackrockdigital.github.io/startbootstrap-modern-business/services.html

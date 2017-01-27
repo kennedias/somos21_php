@@ -1,0 +1,76 @@
+.footer {
+    text-align: center;
+    margin-top: 5%;
+    background-color: black;
+    color: white;
+}
+
+.indeximg{
+    height: 10em;
+    position: relative }
+
+.indeximg {
+    margin: 0;
+    background: yellow;
+    position: absolute;
+    size: 10;
+    top: 5%;
+    left: 5%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: powderblue;
+}
+
+.logocontainer{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 60%;
+    margin-top: 2%; 
+
+}
+
+* {
+  .border-radius(0) !important;
+}
+
+#field {
+    margin-bottom:20px;
+}
+
+.entry:not(:first-of-type)
+{
+    margin-top: 10px;
+}
+
+.glyphicon
+{
+    font-size: 12px;
+}
+
+.tt-hint,
+        .city {
+            border: 2px solid #CCCCCC;
+            border-radius: 8px 8px 8px 8px;
+            font-size: 24px;
+            height: 45px;
+            line-height: 30px;
+            outline: medium none;
+            padding: 8px 12px;
+            width: 400px;
+        }
+
+        .tt-dropdown-menu {
+            width: 400px;
+            margin-top: 5px;
+            padding: 8px 12px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            border-radius: 8px 8px 8px 8px;
+            font-size: 18px;
+            color: #111;
+            background-color: #F1F1F1;
+        }
