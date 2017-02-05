@@ -1,5 +1,6 @@
 <?php
 
+session_start();
 include("includes/db_connector.php");
 
 if(isset($_POST["submit"])){
@@ -17,9 +18,8 @@ if(isset($_POST["submit"])){
     $userid = $row["id"];
 
     if(password_verify($password,$stored_password)){
-        session_start();
         $_SESSION["user"]=array("username"=>$username,"email"=>$email,"userid"=>$userid);
-        header('Location: profile.php');
+        header('Location: index.php');
     }
     else{
       echo "<p>email or password does not match our records</p>";
@@ -32,7 +32,7 @@ if(isset($_POST["submit"])){
 <html>
     <?php include("includes/head.php");?>
     <body>
-    <?php include("includes/navigation2.php");?>
+    <?php include("includes/navigation.php");?>
 
         <div class="jumbotron">
           <div class="container">

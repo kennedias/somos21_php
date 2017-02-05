@@ -27,9 +27,9 @@
 }
 
 .logo{
-    width: 60%;
-    margin-top: 2%; 
-
+    width: 65%;
+    margin: 1%; 
+    border: 1px solid gray;
 }
 
 * {
